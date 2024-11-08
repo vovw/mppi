@@ -1,5 +1,6 @@
 <mujoco model="go1 scene">
-  <include file="go1.xml"/>
+  <include file="go2.xml"/>
+  <!--<include file="go2.xml"/>-->
 
   <statistic center="0 0 0.1" extent="0.8"/>
 
