@@ -4,7 +4,8 @@ Julia implementation of Model Predictive Path Integral (MPPI) control for the Un
 
 # go1 walking
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/td9j1vgA25c?si=8-NKQuY-GNHOZudQ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[![dog go brr](https://img.youtube.com/vi/td9j1vgA25c0.jpg)](https://www.youtube.com/watch?v=td9j1vgA25c0)
 
 ## Overview
 
