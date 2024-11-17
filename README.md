@@ -1,11 +1,13 @@
-# Unitree Go1 MPC-Based Control using MuJoCo and Julia
+# MPC-Based Control using MuJoCo and Julia
 
-
-This repository contains a Julia implementation of Model Predictive Path Integral (MPPI) control for the Unitree Go1 quadruped robot using the MuJoCo physics engine. The code is designed to simulate and control the robot's movement while optimizing for specific cost functions.
+Julia implementation of Model Predictive Path Integral (MPPI) control for the Unitree Go1 quadruped robot and cartpole using the MuJoCo physics engine. The code is designed to simulate and control the robot's movement while optimizing for specific cost functions.
 
 # go1 walking
 
-![Video](video.mp4)
+<video controls="" width="800" height="500" muted="" loop="" autoplay="">
+<source src="https://github.com/YogangSingh/YogangSingh.github.io/raw/main/MultiUSV_Trim_MP4.mp4" type="video/mp4">
+</video>
+
 
 ## Overview
 
