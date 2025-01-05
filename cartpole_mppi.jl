@@ -112,6 +112,7 @@ function mppi_step!(m::Model, d::Data)
 end
 
 function mppi_controller!(m::Model, d::Data)
+
     mppi_step!(m, d)
     d.ctrl .= U_global[:, 1]
     # shifting controls
@@ -119,6 +120,16 @@ function mppi_controller!(m::Model, d::Data)
     U_global[:, end] .= 0.1 * U_global[:, end-1]  # Smaller decay factor
 end
 
+
+steps = 0
+function counting_controller!(m::Model, d::Data)
+    global steps += 1
+    mppi_controller!(m, d)
+    if steps % 500 == 0
+        println("steps: ", steps)
+    end
+end
+
 # woohoooo
 init_visualiser()
-visualise!(model, data; controller=mppi_controller!)
+visualise!(model, data; controller=counting_controller!)
